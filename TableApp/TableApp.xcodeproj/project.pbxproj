@@ -56,15 +56,39 @@
 		BC5BBC002AB195FF00734559 /* TableApp */ = {
 			isa = PBXGroup;
 			children = (
-				BC5BBC012AB195FF00734559 /* AppDelegate.swift */,
-				BC5BBC032AB195FF00734559 /* SceneDelegate.swift */,
-				BC5BBC052AB195FF00734559 /* ViewController.swift */,
-				BC5BBC072AB195FF00734559 /* Main.storyboard */,
-				BC5BBC0A2AB195FF00734559 /* Assets.xcassets */,
-				BC5BBC0C2AB195FF00734559 /* LaunchScreen.storyboard */,
+				BC5BBC162AB1966B00734559 /* Controller */,
+				BC5BBC172AB1968100734559 /* MainStoryboard */,
 				BC5BBC0F2AB195FF00734559 /* Info.plist */,
+				BC5BBC152AB1962E00734559 /* AppDelegate */,
 			);
 			path = TableApp;
+			sourceTree = "<group>";
+		};
+		BC5BBC152AB1962E00734559 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BC5BBC0A2AB195FF00734559 /* Assets.xcassets */,
+				BC5BBC012AB195FF00734559 /* AppDelegate.swift */,
+				BC5BBC032AB195FF00734559 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BC5BBC162AB1966B00734559 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC5BBC052AB195FF00734559 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC5BBC172AB1968100734559 /* MainStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				BC5BBC072AB195FF00734559 /* Main.storyboard */,
+				BC5BBC0C2AB195FF00734559 /* LaunchScreen.storyboard */,
+			);
+			path = MainStoryboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

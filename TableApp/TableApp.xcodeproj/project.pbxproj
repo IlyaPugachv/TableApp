@@ -13,8 +13,9 @@
 		BC5BBC0B2AB195FF00734559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5BBC0A2AB195FF00734559 /* Assets.xcassets */; };
 		BC5BBC0E2AB195FF00734559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5BBC0C2AB195FF00734559 /* LaunchScreen.storyboard */; };
 		BC5BBC192AB1A12D00734559 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5BBC182AB1A12D00734559 /* Person.swift */; };
-		BC5BBC222AB1A92300734559 /* FirstTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5BBC212AB1A92300734559 /* FirstTableVC.swift */; };
-		BC5BBC242AB1A93E00734559 /* SecondTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5BBC232AB1A93E00734559 /* SecondTableVC.swift */; };
+		BC5BBC272AB22F1700734559 /* PersonalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5BBC262AB22F1700734559 /* PersonalData.swift */; };
+		BC5BBC332AB31B7D00734559 /* PersonTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5BBC322AB31B7D00734559 /* PersonTableVC.swift */; };
+		BC5BBC352AB31B9400734559 /* InfoTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5BBC342AB31B9400734559 /* InfoTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +27,9 @@
 		BC5BBC0D2AB195FF00734559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC5BBC0F2AB195FF00734559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC5BBC182AB1A12D00734559 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		BC5BBC212AB1A92300734559 /* FirstTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableVC.swift; sourceTree = "<group>"; };
-		BC5BBC232AB1A93E00734559 /* SecondTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableVC.swift; sourceTree = "<group>"; };
+		BC5BBC262AB22F1700734559 /* PersonalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalData.swift; sourceTree = "<group>"; };
+		BC5BBC322AB31B7D00734559 /* PersonTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableVC.swift; sourceTree = "<group>"; };
+		BC5BBC342AB31B9400734559 /* InfoTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		BC5BBC002AB195FF00734559 /* TableApp */ = {
 			isa = PBXGroup;
 			children = (
+				BC5BBC252AB22E9100734559 /* Servies */,
 				BC5BBC1A2AB1A13800734559 /* Models */,
 				BC5BBC162AB1966B00734559 /* Controller */,
 				BC5BBC172AB1968100734559 /* MainStoryboard */,
@@ -82,8 +85,8 @@
 		BC5BBC162AB1966B00734559 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BC5BBC212AB1A92300734559 /* FirstTableVC.swift */,
-				BC5BBC232AB1A93E00734559 /* SecondTableVC.swift */,
+				BC5BBC322AB31B7D00734559 /* PersonTableVC.swift */,
+				BC5BBC342AB31B9400734559 /* InfoTableVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -103,6 +106,14 @@
 				BC5BBC182AB1A12D00734559 /* Person.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		BC5BBC252AB22E9100734559 /* Servies */ = {
+			isa = PBXGroup;
+			children = (
+				BC5BBC262AB22F1700734559 /* PersonalData.swift */,
+			);
+			path = Servies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,11 +187,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC5BBC332AB31B7D00734559 /* PersonTableVC.swift in Sources */,
 				BC5BBC022AB195FF00734559 /* AppDelegate.swift in Sources */,
 				BC5BBC192AB1A12D00734559 /* Person.swift in Sources */,
-				BC5BBC222AB1A92300734559 /* FirstTableVC.swift in Sources */,
-				BC5BBC242AB1A93E00734559 /* SecondTableVC.swift in Sources */,
+				BC5BBC352AB31B9400734559 /* InfoTableVC.swift in Sources */,
 				BC5BBC042AB195FF00734559 /* SceneDelegate.swift in Sources */,
+				BC5BBC272AB22F1700734559 /* PersonalData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

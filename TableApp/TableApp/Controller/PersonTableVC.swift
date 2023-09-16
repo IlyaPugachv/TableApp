@@ -16,8 +16,9 @@ class PersonTableVC: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "person", for: indexPath)
         let person = persons[indexPath.row]
-        cell.textLabel?.text = person.name
-        cell.detailTextLabel?.text = person.surName
+        var inOneLine = cell.defaultContentConfiguration()
+        inOneLine.text = person.fullName
+        cell.contentConfiguration = inOneLine
         return cell
     }
     

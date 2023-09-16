@@ -16,6 +16,7 @@
 		BC5BBC272AB22F1700734559 /* PersonalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5BBC262AB22F1700734559 /* PersonalData.swift */; };
 		BC5BBC332AB31B7D00734559 /* PersonTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5BBC322AB31B7D00734559 /* PersonTableVC.swift */; };
 		BC5BBC352AB31B9400734559 /* InfoTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5BBC342AB31B9400734559 /* InfoTableVC.swift */; };
+		BC5BBC372AB47B1600734559 /* UserDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5BBC362AB47B1600734559 /* UserDataVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BC5BBC262AB22F1700734559 /* PersonalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalData.swift; sourceTree = "<group>"; };
 		BC5BBC322AB31B7D00734559 /* PersonTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableVC.swift; sourceTree = "<group>"; };
 		BC5BBC342AB31B9400734559 /* InfoTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableVC.swift; sourceTree = "<group>"; };
+		BC5BBC362AB47B1600734559 /* UserDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			children = (
 				BC5BBC322AB31B7D00734559 /* PersonTableVC.swift */,
 				BC5BBC342AB31B9400734559 /* InfoTableVC.swift */,
+				BC5BBC362AB47B1600734559 /* UserDataVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC5BBC372AB47B1600734559 /* UserDataVC.swift in Sources */,
 				BC5BBC332AB31B7D00734559 /* PersonTableVC.swift in Sources */,
 				BC5BBC022AB195FF00734559 /* AppDelegate.swift in Sources */,
 				BC5BBC192AB1A12D00734559 /* Person.swift in Sources */,

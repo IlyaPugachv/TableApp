@@ -15,7 +15,7 @@ class PersonalData {
         "Sidorov", "Lebedev",
         "Zaicev", "Socolov",
         "Kyznecov", "Petrov",
-        "Pugachev", "Tomashev"
+        "Semencov", "Tomashev"
     ]
     
     static let emails = [

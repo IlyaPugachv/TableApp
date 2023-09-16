@@ -6,6 +6,10 @@ struct Person {
     let email: String
     let phone: String
     
+    var fullName: String {
+        "\(name) \(surName)"
+    }
+    
     static func randomPerson() -> [Person] {
         
         var persons: [Person] = []
@@ -19,7 +23,8 @@ struct Person {
             let person = Person(name: names[index],
                                 surName: surNames[index],
                                 email: emails[index],
-                                phone: phoneNumbers[index])
+                                phone: phoneNumbers[index]
+            )
             persons.append(person)
         }
         return persons

@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		BC5BBC022AB195FF00734559 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5BBC012AB195FF00734559 /* AppDelegate.swift */; };
 		BC5BBC042AB195FF00734559 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5BBC032AB195FF00734559 /* SceneDelegate.swift */; };
-		BC5BBC062AB195FF00734559 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5BBC052AB195FF00734559 /* ViewController.swift */; };
 		BC5BBC092AB195FF00734559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5BBC072AB195FF00734559 /* Main.storyboard */; };
 		BC5BBC0B2AB195FF00734559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5BBC0A2AB195FF00734559 /* Assets.xcassets */; };
 		BC5BBC0E2AB195FF00734559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5BBC0C2AB195FF00734559 /* LaunchScreen.storyboard */; };
+		BC5BBC192AB1A12D00734559 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5BBC182AB1A12D00734559 /* Person.swift */; };
+		BC5BBC272AB22F1700734559 /* PersonalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5BBC262AB22F1700734559 /* PersonalData.swift */; };
+		BC5BBC332AB31B7D00734559 /* PersonTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5BBC322AB31B7D00734559 /* PersonTableVC.swift */; };
+		BC5BBC352AB31B9400734559 /* InfoTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5BBC342AB31B9400734559 /* InfoTableVC.swift */; };
+		BC5BBC372AB47B1600734559 /* UserDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5BBC362AB47B1600734559 /* UserDataVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BC5BBBFE2AB195FF00734559 /* TableApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5BBC012AB195FF00734559 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC5BBC032AB195FF00734559 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BC5BBC052AB195FF00734559 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BC5BBC082AB195FF00734559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC5BBC0A2AB195FF00734559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC5BBC0D2AB195FF00734559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC5BBC0F2AB195FF00734559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC5BBC182AB1A12D00734559 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		BC5BBC262AB22F1700734559 /* PersonalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalData.swift; sourceTree = "<group>"; };
+		BC5BBC322AB31B7D00734559 /* PersonTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableVC.swift; sourceTree = "<group>"; };
+		BC5BBC342AB31B9400734559 /* InfoTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableVC.swift; sourceTree = "<group>"; };
+		BC5BBC362AB47B1600734559 /* UserDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,59 @@
 		BC5BBC002AB195FF00734559 /* TableApp */ = {
 			isa = PBXGroup;
 			children = (
-				BC5BBC012AB195FF00734559 /* AppDelegate.swift */,
-				BC5BBC032AB195FF00734559 /* SceneDelegate.swift */,
-				BC5BBC052AB195FF00734559 /* ViewController.swift */,
-				BC5BBC072AB195FF00734559 /* Main.storyboard */,
-				BC5BBC0A2AB195FF00734559 /* Assets.xcassets */,
-				BC5BBC0C2AB195FF00734559 /* LaunchScreen.storyboard */,
+				BC5BBC252AB22E9100734559 /* Servies */,
+				BC5BBC1A2AB1A13800734559 /* Models */,
+				BC5BBC162AB1966B00734559 /* Controller */,
+				BC5BBC172AB1968100734559 /* MainStoryboard */,
 				BC5BBC0F2AB195FF00734559 /* Info.plist */,
+				BC5BBC152AB1962E00734559 /* AppDelegate */,
 			);
 			path = TableApp;
+			sourceTree = "<group>";
+		};
+		BC5BBC152AB1962E00734559 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BC5BBC0A2AB195FF00734559 /* Assets.xcassets */,
+				BC5BBC012AB195FF00734559 /* AppDelegate.swift */,
+				BC5BBC032AB195FF00734559 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BC5BBC162AB1966B00734559 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC5BBC322AB31B7D00734559 /* PersonTableVC.swift */,
+				BC5BBC342AB31B9400734559 /* InfoTableVC.swift */,
+				BC5BBC362AB47B1600734559 /* UserDataVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC5BBC172AB1968100734559 /* MainStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				BC5BBC072AB195FF00734559 /* Main.storyboard */,
+				BC5BBC0C2AB195FF00734559 /* LaunchScreen.storyboard */,
+			);
+			path = MainStoryboard;
+			sourceTree = "<group>";
+		};
+		BC5BBC1A2AB1A13800734559 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC5BBC182AB1A12D00734559 /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BC5BBC252AB22E9100734559 /* Servies */ = {
+			isa = PBXGroup;
+			children = (
+				BC5BBC262AB22F1700734559 /* PersonalData.swift */,
+			);
+			path = Servies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC5BBC062AB195FF00734559 /* ViewController.swift in Sources */,
+				BC5BBC372AB47B1600734559 /* UserDataVC.swift in Sources */,
+				BC5BBC332AB31B7D00734559 /* PersonTableVC.swift in Sources */,
 				BC5BBC022AB195FF00734559 /* AppDelegate.swift in Sources */,
+				BC5BBC192AB1A12D00734559 /* Person.swift in Sources */,
+				BC5BBC352AB31B9400734559 /* InfoTableVC.swift in Sources */,
 				BC5BBC042AB195FF00734559 /* SceneDelegate.swift in Sources */,
+				BC5BBC272AB22F1700734559 /* PersonalData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
